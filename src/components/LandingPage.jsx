@@ -295,21 +295,21 @@ const LandingPage = () => {
           <div className="grid gap-4 sm:grid-cols-3">
             <div className="relative overflow-hidden rounded-xl border border-white/10">
               <img 
-                src="/src/assets/Screenshot 2025-07-27 4.27.36 PM.png" 
+                src="/assets/Screenshot 2025-07-27 4.27.36 PM.png" 
                 alt="Rhine app screenshot 1"
                 className="w-full h-auto object-cover"
               />
             </div>
             <div className="relative overflow-hidden rounded-xl border border-white/10">
               <img 
-                src="/src/assets/Screenshot 2025-07-27 4.28.22 PM.png" 
+                src="/assets/Screenshot 2025-07-27 4.28.22 PM.png" 
                 alt="Rhine app screenshot 2"
                 className="w-full h-auto object-cover"
               />
             </div>
             <div className="relative overflow-hidden rounded-xl border border-white/10">
               <img 
-                src="/src/assets/Screenshot 2025-07-27 4.28.40 PM.png" 
+                src="/assets/Screenshot 2025-07-27 4.28.40 PM.png" 
                 alt="Rhine app screenshot 3"
                 className="w-full h-auto object-cover"
               />
@@ -317,6 +317,18 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+
+      <footer className="py-8 px-4 border-t border-white/10 mt-12">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-400">
+          <div>
+            &copy; {new Date().getFullYear()} Rhine Technologies. All rights reserved.
+          </div>
+          <div className="flex gap-6">
+            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
