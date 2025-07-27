@@ -260,8 +260,62 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="mt-16 px-4">
-        {/* Demo content placeholder */}
+      <div className="mt-16 px-4 max-w-4xl mx-auto space-y-20">
+        <div className="space-y-8">
+          <h2 className="text-3xl font-bold text-white text-center">
+            How Rhine Works
+          </h2>
+
+          <div className="grid gap-8 md:grid-cols-3">
+            <div className="space-y-4 p-6 bg-white/5 rounded-xl border border-white/10 backdrop-blur-sm">
+              <div className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">1</div>
+              <h3 className="text-xl font-semibold text-white">Create Account</h3>
+              <p className="text-slate-300">Login and complete a personality survey to be automatically matched with similar users</p>
+            </div>
+
+            <div className="space-y-4 p-6 bg-white/5 rounded-xl border border-white/10 backdrop-blur-sm">
+              <div className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">2</div>
+              <h3 className="text-xl font-semibold text-white">Find Events</h3>
+              <p className="text-slate-300">See a map showing scheduled events - taller pins indicate more matches attending</p>
+            </div>
+
+            <div className="space-y-4 p-6 bg-white/5 rounded-xl border border-white/10 backdrop-blur-sm">
+              <div className="text-4xl font-bold bg-gradient-to-r from-pink-400 to-cyan-500 bg-clip-text text-transparent">3</div>
+              <h3 className="text-xl font-semibold text-white">Attend Events</h3>
+              <p className="text-slate-300">There are no profiles, photos, or messaging - just RSVP to show your matches which events to attend</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="space-y-8">
+          <h2 className="text-3xl font-bold text-white text-center">
+            How Rhine looks
+          </h2>
+
+          <div className="grid gap-4 sm:grid-cols-3">
+            <div className="relative overflow-hidden rounded-xl border border-white/10">
+              <img 
+                src="/src/assets/Screenshot 2025-07-27 4.27.36 PM.png" 
+                alt="Rhine app screenshot 1"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+            <div className="relative overflow-hidden rounded-xl border border-white/10">
+              <img 
+                src="/src/assets/Screenshot 2025-07-27 4.28.22 PM.png" 
+                alt="Rhine app screenshot 2"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+            <div className="relative overflow-hidden rounded-xl border border-white/10">
+              <img 
+                src="/src/assets/Screenshot 2025-07-27 4.28.40 PM.png" 
+                alt="Rhine app screenshot 3"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
